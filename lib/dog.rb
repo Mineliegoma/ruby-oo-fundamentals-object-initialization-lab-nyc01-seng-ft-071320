@@ -7,4 +7,8 @@ class Person
   
 end 
 
-class Dog 
+class Dog
+  def initialize(name,breed="Mutt")
+    @name=name
+  end
+end 
